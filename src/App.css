@@ -28,6 +28,27 @@
   color: #61dafb;
 }
 
+.customer-list {
+  display: flex;
+  justify-content: center;
+}
+
+.customer-item {
+  margin: 20px;
+}
+
+.animals-list {
+}
+
+.animal-item {
+}
+
+.book-list {
+}
+
+.book-item {
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
