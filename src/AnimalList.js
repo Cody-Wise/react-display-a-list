@@ -3,11 +3,13 @@ import AnimalItem from './AnimalItem';
 
 export default function AnimalList({ animals }) {
   return (
-    <div className="animals-list">
+    <div>
       <h2>Animals</h2>
-      {animals.map((animal) => (
-        <AnimalItem key={animal.id} {...animal} />
-      ))}
+      <div className="animals-list">
+        {animals.map((animal) => (
+          <AnimalItem key={animal.id} {...animal} />
+        ))}
+      </div>
     </div>
   );
 }

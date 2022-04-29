@@ -9,7 +9,9 @@ export default function AnimalItem({ name, age, type, favoritetoys }) {
       <p>Favorite Toys</p>
       <ul className="toys">
         {favoritetoys.map((favoritetoy) => (
-          <li key={favoritetoy}>{favoritetoy}</li>
+          <li key={favoritetoy}>
+            <span>{favoritetoy}</span>
+          </li>
         ))}
       </ul>
     </div>
