@@ -4,6 +4,7 @@ export default function BookItem({ name, published, type, author }) {
   return (
     <div className="book-item">
       <h3>{name}</h3>
+      <p>Edition: {type}</p>
       <p>Published in {published}</p>
 
       {/* <div key={author.name}> */}
