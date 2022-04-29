@@ -28,6 +28,53 @@
   color: #61dafb;
 }
 
+.customer-list {
+  display: flex;
+  justify-content: center;
+}
+
+.customer-item {
+  margin: 20px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.12);
+  width: 25%;
+}
+
+.animals-list {
+  display: flex;
+  justify-content: center;
+}
+
+.animal-item {
+  margin: 20px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.12);
+  width: 25%;
+}
+
+.animal-item > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* .animal-item ul > li > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.book-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+.book-item {
+  margin: 20px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.12);
+  width: 25%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
